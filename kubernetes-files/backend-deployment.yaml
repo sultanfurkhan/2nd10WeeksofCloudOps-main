@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: sultan27/bi
+        image: 
         ports:
         - containerPort: 80
         env:
