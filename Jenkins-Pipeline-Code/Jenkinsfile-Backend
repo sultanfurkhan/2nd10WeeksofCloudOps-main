@@ -23,7 +23,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', credentialsId: 'git-credentials', url: 'https://github.com/sultanfurkhan/2nd10WeeksofCloudOps-main.git'
+                git branch: 'main', url: 'https://github.com/sultanfurkhan/2nd10WeeksofCloudOps-main.git'
             }
         }
 
@@ -89,7 +89,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', credentialsId: 'git-credentials', url: 'https://github.com/sultanfurkhan/2nd10WeeksofCloudOps-main.git'
+                git branch: 'main', url: 'https://github.com/sultanfurkhan/2nd10WeeksofCloudOps-main.git'
             }
         }
 
