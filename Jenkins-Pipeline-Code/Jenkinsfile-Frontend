@@ -30,8 +30,8 @@ pipeline {
                         $SCANNER_HOME/bin/sonar-scanner \
                         -Dsonar.projectKey=three-tier-frontend \
                         -Dsonar.sources=. \
-                        -Dsonar.host.url=http://3.236.129.73:9000 \
-                        -Dsonar.login=squ_61edfa8958c36b651efdea0950336ad0bd9ced75
+                        -Dsonar.host.url=http://3.220.232.79/:9000 \
+                        -Dsonar.login=squ_42f16b3f04021251743012a056cd8f4338d2a96d
                         '''
                     }
                 }
